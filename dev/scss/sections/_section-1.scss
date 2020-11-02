@@ -2,8 +2,16 @@
     Section 1
 ============= */
 #section-1{
-    .grid-content{
-        
-    }
+
+        .Logo{
+            height: 400px;
+            width: 400px;
+            margin: 200px 0 0 800px
+
+        }
+
+        #logotext{
+            opacity: 0;
+        }
 
 }
