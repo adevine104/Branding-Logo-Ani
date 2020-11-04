@@ -8,6 +8,11 @@ var RBSpeed = .8;
 var tl = gsap.timeline({ease: "power2.out"});
 
 
+tl.from(".Logo", {
+    duration: 2,
+    rotate: -30
+}, "play");
+
 tl.to(".Logo", {
     duration: RBSpeed,
     x: -250
@@ -49,6 +54,21 @@ tl.to("#OpacityB", {
 tl.to("#logotext", {
     duration: 1.5,
     opacity:1
+}, "play3");
+
+tl.to("#tagline", {
+    duration: 1.5,
+    opacity:1
+}, "play3");
+
+tl.from("#tagline", {
+    duration: 1.5,
+    x: 100
+}, "play3");
+
+tl.to("#mainR", {
+    duration: 1.5,
+    fill: "rgb(239, 85, 86)"
 }, "play3");
 
 
