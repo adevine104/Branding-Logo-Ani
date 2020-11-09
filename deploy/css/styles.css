@@ -419,14 +419,8 @@ textarea {
 /* =============
     Section 1
 ============= */
-#section-1 .Logo {
+#section-1 #WHOLE-THING {
   height: 400px;
   width: 400px;
   margin: 200px 0 0 800px;
-}
-#section-1 #logotext {
-  opacity: 0;
-}
-#section-1 #tagline {
-  opacity: 0;
 }

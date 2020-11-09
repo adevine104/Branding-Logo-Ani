@@ -1,4 +1,10 @@
 
-import * as Demo from './demo.js';
+// import * as Demo from './demo.js';
 
-console.log(Demo);
+// console.log(Demo);
+
+import {lineAnimation} from "./demo.js";
+
+const mainTl = gsap.timeline();
+
+mainTl.add(lineAnimation());
