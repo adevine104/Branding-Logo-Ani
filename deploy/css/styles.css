@@ -419,8 +419,38 @@ textarea {
 /* =============
     Section 1
 ============= */
-#section-1 #WHOLE-THING {
+#section-1 #wholething {
   height: 400px;
   width: 400px;
-  margin: 200px 0 0 800px;
+  margin: 200px 0 0 500px;
+}
+#section-1 #RepublicBank {
+  opacity: 0;
+}
+#section-1 #RB {
+  opacity: 0;
+}
+#section-1 #tagline {
+  opacity: 0;
+}
+#section-1 #line-2 {
+  opacity: 0;
+}
+#section-1 #coin-1 {
+  opacity: 0;
+}
+#section-1 #coin-2 {
+  opacity: 0;
+}
+#section-1 #coin-3 {
+  opacity: 0;
+}
+#section-1 #line-3 {
+  opacity: 0;
+}
+#section-1 #ipad {
+  opacity: 0;
+}
+#section-1 #iphone {
+  opacity: 0;
 }

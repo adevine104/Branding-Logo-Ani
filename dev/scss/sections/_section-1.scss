@@ -3,13 +3,72 @@
 ============= */
 
 
+// #section-1{
+
+//         #WHOLE-THING{
+//             height: 400px;
+//             width: 400px;
+//             margin: 200px 0 0 800px
+
+//         }
+
+// }
+
+
 #section-1{
 
-        #WHOLE-THING{
+        #wholething{
             height: 400px;
             width: 400px;
-            margin: 200px 0 0 800px
+            margin: 200px 0 0 500px
+        }
 
+        #RepublicBank{
+            opacity: 0;
+        }
+
+        #RB{
+            opacity: 0;
+        }
+
+        #tagline{
+            opacity: 0;
+        }
+
+        #line-2{
+            opacity: 0;
+        }
+
+        // #coins{
+        //     opacity: 0;
+        // }
+
+        #coin-1{
+            opacity: 0;
+        }
+
+        #coin-2{
+            opacity: 0;
+        }
+
+        #coin-3{
+            opacity: 0;
+        }
+
+        #line-3{
+            opacity: 0;
+        }
+
+        // #tech{
+        //     opacity: 0;
+        // }
+
+        #ipad{
+            opacity: 0;
+        }
+
+        #iphone{
+            opacity: 0;
         }
 
 }
